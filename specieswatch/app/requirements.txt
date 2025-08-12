@@ -1,0 +1,12 @@
+streamlit
+geopandas
+pandas
+folium
+streamlit-folium
+Pillow
+requests
+pyarrow
+fastparquet
+plotly
+SQLAlchemy
+psycopg2-binary
