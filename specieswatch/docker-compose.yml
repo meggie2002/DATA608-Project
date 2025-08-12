@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  specieswatch-db:
+    image: postgis/postgis:15-3.3
+    container_name: specieswatch-db
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  specieswatch-app:
+    build:
+      context: ./app
+    container_name: specieswatch-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app
+    env_file:
+      - .env
+    depends_on:
+      - specieswatch-db
+    command: streamlit run streamlit_app.py
+
+  specieswatch-loader:
+    build:
+      context: ./loader
+    container_name: specieswatch-loader
+    env_file:
+      - .env
+    depends_on:
+      - specieswatch-db
+    command: python push_to_db.py
+    # Loader is defined but not started by default
+
+volumes:
+  pgdata:
