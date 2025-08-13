@@ -60,7 +60,6 @@ This project provides a unified, interactive web application for visualizing glo
    - Interactive maps + analysis dashboards
 
 [Pipeline Diagram](![final (2)](https://github.com/user-attachments/assets/70b6d48c-584b-4a8a-b669-3c2f47696479)
-) 
 ---
 
 ### 2.1 Data Sources
