@@ -1,8 +1,8 @@
-#  SpeciesWatch: Monitoring Biodiversity with Data & Visualization
+# Big Data Application for Spatial Mapping of Global Mammal Conservation Status
 
 
 ## Overview
-SpeciesWatch is a data-driven project designed to monitor biodiversity trends using interactive visualizations and analytical tools. Built as part of the DATA 608 course, this project leverages public datasets to explore species distribution, conservation status, and ecological patterns.
+SpeciesWatch is a data-driven web application developed to monitor global mammal conservation status and biodiversity patterns. Hosted on AWS and built with Streamlit, it integrates spatial data from IUCN shapefiles and species metadata to provide interactive maps, visualizations of threat levels, and habitat distributions. The platform enables users to explore species counts, and conservation categories using dynamic filters and analytical tools.
 
 ## Repository Structure
 - `api-job/`: Backend scripts and API integration for data retrieval.
@@ -17,7 +17,7 @@ SpeciesWatch is a data-driven project designed to monitor biodiversity trends us
 
 ### 1.1 Problem Statement
 
-Information about the global distribution of endangered mammals—whether freshwater, marine, terrestrial, or mixed—is scattered, often locked in static formats, and spread across multiple sources. This makes it hard for researchers, educators, policymakers, and the public to access, explore, and act on the data.
+Information about the global distribution of endangered mammals whether freshwater, marine, terrestrial, or mixed is scattered, often locked in static formats, and spread across multiple sources. This makes it hard for researchers, educators, policymakers, and the public to access, explore, and act on the data.
 
 Mammals face increasing threats worldwide. Over **1,100 species** are currently listed as threatened or endangered on the IUCN Red List (nearly 20% of all mammals), due to habitat loss, climate change, poaching, and pollution. They’re ecologically critical, culturally significant, and often serve as “flagship species” for broader conservation efforts.
 
