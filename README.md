@@ -1,5 +1,8 @@
 # Big Data Application for Spatial Mapping of Global Mammal Conservation Status
 
+## Web App Demonstration
+[Web App Demo](https://youtu.be/lOPJfy6CYXo) 
+
 
 ## Overview
 SpeciesWatch is a data-driven web application developed to monitor global mammal conservation status and biodiversity patterns. Hosted on AWS and built with Streamlit, it integrates spatial data from IUCN shapefiles and species metadata to provide interactive maps, visualizations of threat levels, and habitat distributions. The platform enables users to explore species counts, and conservation categories using dynamic filters and analytical tools.
@@ -9,8 +12,6 @@ SpeciesWatch is a data-driven web application developed to monitor global mammal
 - `eda-job/`: Exploratory data analysis and preprocessing.
 - `specieswatch/`: Final data prep, frontend components and visualization dashboards.
 
-## Web App Demonstration
-[Web App Demo](https://youtu.be/lOPJfy6CYXo) 
 
 
 ## 1. Introduction
